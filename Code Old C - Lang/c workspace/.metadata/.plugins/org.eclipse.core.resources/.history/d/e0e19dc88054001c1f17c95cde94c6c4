@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+ setbuf(stdout ,NULL);
+int i;
+int num;
+printf("Enter the prime no");
+scanf("%d",&num);
+
+for(i=2;i<num;i++)
+{
+	if(num%i==0)
+	{
+		printf("This is a prime no %d/n");
+	}
+		else
+			printf("Not a prime no");
+	}
+}
+
+

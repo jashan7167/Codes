@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    for(int i = 0;i<20;i++)
+    {
+        
+        cout<<1+rand()%6<<endl; //use rand function to randomize the output
+    }
+}
